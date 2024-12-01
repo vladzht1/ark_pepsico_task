@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="template.xslt"?>
+<MT>
+    <App>
+        <AppNumber>350267</AppNumber>
+        <InitEmp>Петров А.Г.</InitEmp>
+    </App>
+    <ADO>
+        <DeliveryDate>2022-05-30T00:00:00</DeliveryDate>
+    </ADO>
+    <Emp>
+        <FamIO>Иванов И.И.</FamIO>
+        <Mail>user@mail365.ru</Mail>
+    </Emp>
+</MT>

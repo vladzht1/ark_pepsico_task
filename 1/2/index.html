@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css" />
+    <title>Document</title>
+    <style>
+      .AbsenceRow_Hidden {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <table border="1">
+      <thead class="AbsenceControlContainer">
+        <div>
+          <input class="AbsenceControl" type="checkbox" value="03.2023" defaultChecked="false" />
+          <span>03.2023</span>
+        </div>
+        <div>
+          <input class="AbsenceControl" type="checkbox" value="08.2023" defaultChecked="false" />
+          <span>08.2023</span>
+        </div>
+        <div>
+          <input class="AbsenceControl" type="checkbox" value="10.2023" defaultChecked="false" />
+          <span>10.2023</span>
+        </div>
+        <div>
+          <input class="AbsenceControl" type="checkbox" value="11.2023" defaultChecked="false" />
+          <span>11.2023</span>
+        </div>
+      </thead>
+      <tbody>
+        <tr class="AbsenceRow AbsenceRow_Hidden">
+          <td class="AbsenceRow_AbsenceReason">Отпуск</td>
+          <td class="AbsenceRow_AbsenceFrom">20.03.2023</td>
+          <td class="AbsenceRow_AbsenceTo">26.03.2023</td>
+        </tr>
+        <tr class="AbsenceRow AbsenceRow_Hidden">
+          <td class="AbsenceRow_AbsenceReason">Отпуск</td>
+          <td class="AbsenceRow_AbsenceFrom">10.03.2023</td>
+          <td class="AbsenceRow_AbsenceTo">12.03.2023</td>
+        </tr>
+        <tr class="AbsenceRow AbsenceRow_Hidden">
+          <td class="AbsenceRow_AbsenceReason">Отпуск</td>
+          <td class="AbsenceRow_AbsenceFrom">31.07.2023</td>
+          <td class="AbsenceRow_AbsenceTo">11.08.2023</td>
+        </tr>
+        <tr class="AbsenceRow AbsenceRow_Hidden">
+          <td class="AbsenceRow_AbsenceReason">Отпуск</td>
+          <td class="AbsenceRow_AbsenceFrom">14.08.2023</td>
+          <td class="AbsenceRow_AbsenceTo">15.08.2023</td>
+        </tr>
+        <tr class="AbsenceRow AbsenceRow_Hidden">
+          <td class="AbsenceRow_AbsenceReason">Отпуск</td>
+          <td class="AbsenceRow_AbsenceFrom">30.10.2023</td>
+          <td class="AbsenceRow_AbsenceTo">03.11.2023</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
